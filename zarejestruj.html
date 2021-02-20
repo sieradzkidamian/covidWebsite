@@ -29,14 +29,8 @@
                     </div>
                 </div>
             </nav>
-           <!-- <form action="mailto:sieradzki129@gmail.com" method="post"b style="height: 60%;width: 100%;padding-left: 25%;margin-top: 10%;margin-right: 0px;" enctype="text/plain">
-              <div class="form-group">
-                <input class="form-control" type="text" style="border-width: 0px;border-radius: 1px;width: 50%;" placeholder="Imię" name="Imie">
-                </div>
-                <div style="margin-top: 17px;"><button class="btn btn-primary" type="reset" style="margin-left: 0px;background: rgb(62,64,67);">Wyczyść</button><button class="btn btn-primary" type="submit" style="padding-left: 29px;margin-left: 16px;background: rgb(85,144,207);">Wyślij</button></div>
-            </form>-->
             <h4></h4>
-         <form action="mailto:sieradzki129@gmail.com" method="post"b style="height: 60%;width: 100%;padding-left: 25%;margin-top: 10%;margin-right: 0px;" enctype="text/plain">
+         <form name="covidRegister" action="mailto:sieradzki129@gmail.com" method="post"b style="height: 60%;width: 100%;padding-left: 25%;margin-top: 10%;margin-right: 0px;" enctype="text/plain" onsubmit="return peselValidation()">
              <h2>Zarejestruj się do
                  programu szczepień</h2>
                 <div class="form-group">
@@ -53,16 +47,6 @@
                 </select>
                 <div style="margin-top: 17px;"><button class="btn btn-primary" type="reset" style="margin-left: 0px;background: rgb(62,64,67);">Wyczyść</button><button class="btn btn-primary" type="submit" style="padding-left: 29px;margin-left: 16px;background: rgb(85,144,207);">Wyślij</button></div>
             </form>
-            <!--<form action="mailto:sieradzki129@gmail.com" method="post" enctype="text/plain">
-                Name:<br>
-                <input type="text" name="name"><br>
-                E-mail:<br>
-                <input type="text" name="mail"><br>
-                Comment:<br>
-                <input type="text" name="comment" size="50"><br><br>
-                <input type="submit" value="Send">
-                <input type="reset" value="Reset">
-            </form>-->
         </div>
                 <div class="footer-basic" style="background: rgb(255,255,255);">
                     <footer>
@@ -82,6 +66,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 
 </html>
