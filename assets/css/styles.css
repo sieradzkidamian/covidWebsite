@@ -1,0 +1,13 @@
+#register:hover {
+  color: black !important;
+}
+
+.list-group active {
+  background-color: rgb(75,76,77) !important;
+}
+
+a:hover {
+  color: rgb(75,76,77) !important;
+  text-decoration: underline;
+}
+
